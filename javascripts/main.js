@@ -6,9 +6,9 @@ var svg = d3.select("body").append('svg')
         width: 1400,
         height: 660
     });
-var fileList = ["meeting_1","meeting_2","meeting_3","lda_1","lda_2","lda_3","lda_4","lda_5","lda_6","lda_7","lda_8","lda_9","lda_10","lda_11","lda_12","PhraSiam2", "PhraSiam", "BOT", "WikiNews", "Huffington", "CrooksAndLiars", "EmptyWheel", "Esquire", "FactCheck", "VIS_papers", "IMDB", "PopCha", "Cards_PC", "Cards_Fries", "QuantumComputing"]
+var fileList = ["lda_1","lda_2","lda_3","lda_4","lda_5","lda_6","lda_7","lda_8","lda_9","lda_10","lda_11","lda_12","PhraSiam2", "PhraSiam", "BOT", "WikiNews", "Huffington", "CrooksAndLiars", "EmptyWheel", "Esquire", "FactCheck", "VIS_papers", "IMDB", "PopCha", "Cards_PC", "Cards_Fries", "QuantumComputing"]
 
-var initialDataset = "meeting_1";
+var initialDataset = "lda_1";
 var categories = ["person", "location", "organization", "miscellaneous"];
 
 var fileName;
